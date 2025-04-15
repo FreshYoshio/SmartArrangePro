@@ -82,9 +82,6 @@ Contributions are always welcome! To contribute:
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
-
-Project Link: [https://github.com/serhat/smartarrange-pro](https://github.com/serhat/smartarrange-pro)
-
 ---
 
 Made with ❤️ Serhat
