@@ -76,7 +76,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## ✨ Contributing
 
 Contributions are always welcome! To contribute:
-1. Fork it (https://github.com/serhat/smartarrange-pro/fork)
+1. Fork it (https://github.com/FreshYoshio/smartarrange-pro/fork)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
