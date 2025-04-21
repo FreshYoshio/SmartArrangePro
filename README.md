@@ -1,7 +1,3 @@
-Tabii! İşte tüm yazdıklarını İngilizce'ye çevirdim, hem akıcı hem de profesyonel bir dille:  
-
----
-
 # 🧠 SmartArrange Pro 2.0
 Analyze, categorize, and organize your files with just one click.  
 
