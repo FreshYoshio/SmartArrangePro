@@ -1,118 +1,106 @@
-# 🧠 SmartArrange Pro 2.0
+🧠 SmartArrange Pro 2.0
+Analyze, categorize, and organize your files with just one click.
 
-**Dosyalarınızı tek tıkla analiz eder, kategorilere ayırır, düzenler.**
+SmartArrange Pro 2.0 is a sleek and powerful desktop application designed for users who want to eliminate folder clutter. It analyzes all files in your target directory, groups them by type, and arranges them into a clean structure.
 
-SmartArrange Pro 2.0, klasör karmaşasına son vermek isteyen kullanıcılar için tasarlanmış sade ve güçlü bir masaüstü uygulamasıdır. Hedef klasörünüzdeki tüm dosyaları analiz eder, türlerine göre gruplar ve düzenli bir yapıya kavuşturur.
+⚡️ Quick Overview
+🔍 File analysis and category detection
 
----
+🗂️ Automatic folder organization (documents, media, archives, etc.)
 
-## ⚡️ Hızlı Bakış
+✨ Modern and compact user interface (Tkinter-based)
 
-- 🔍 Dosya analiz ve kategori algılama
-- 🗂️ Otomatik klasörleme (belgeler, medya, arşivler vb.)
-- ✨ Modern ve kompakt kullanıcı arayüzü (Tkinter tabanlı)
-- 📁 Alt klasör düzleştirme (flattening)
-- 🧼 Gereksiz dosya temizliği
-- 🧠 Akıllı yeniden adlandırma sistemi
-- 🌗 Karanlık ve aydınlık tema desteği
+📁 Subfolder flattening
 
----
+🧼 Unnecessary file cleanup
 
-## 🔧 Kurulum
+🧠 Smart renaming system
 
-### Sistem Gereksinimleri
+🌗 Light and dark theme support
 
-- Python 3.8+
-- `tkinter` (Python ile birlikte gelir)
-- `Pillow` (`pip install pillow` ile kurulabilir)
+🔧 Installation
+System Requirements:
+Python 3.8+
 
-### Başlatmak için:
+tkinter (comes pre-installed with Python)
 
-```bash
+Pillow (installable via pip install pillow)
+
+To Get Started:
+bash
+Kopyala
+Düzenle
 git clone https://github.com/FreshYoshio/SmartArrangePro.git
 cd SmartArrangePro
 pip install -r requirements.txt
 python SmartArrangePro.py
-```
+🖥️ Application Overview
 
----
+Module	Description
+📂 Folder Selector	Start organizing by selecting your target folder
+🔄 Conversion Module	Extract and relocate files from subfolders
+🧠 Classifier	Categorize and move files based on their types
+⚙️ Settings Menu	Filter by file size, set custom extensions, choose theme, and more
+🧹 Cleaning Tool	Quickly remove unnecessary and temporary files
+✨ User Experience
+Clean, button-based start screen with clear navigation
 
-## 🖥️ Uygulama Özeti
+Category-based icons and colorful labeling
 
-| Modül               | Açıklama                                                                 |
-|---------------------|--------------------------------------------------------------------------|
-| 📂 Klasör Seçici     | Hedef klasörü seçerek düzenlemeye başlanır                              |
-| 🔄 Dönüştürme Modülü | Alt klasörlerden dosya çıkarma ve yeniden yerleştirme işlemleri         |
-| 🧠 Sınıflandırıcı    | Dosya türlerine göre kategorik ayırma ve taşıma                         |
-| ⚙️ Ayarlar Menüsü    | Dosya boyutu filtreleme, özel uzantılar, tema ve daha fazlası           |
-| 🧹 Temizlik Aracı    | Gereksiz ve geçici dosyaların hızlı silinmesi                           |
+Real-time information panels (number of files, types, space saved)
 
----
+User-friendly with error messages and confirmation dialogs
 
-## ✨ Kullanıcı Deneyimi
+📁 Supported Categories
+SmartArrange Pro groups files into the following categories:
 
-- Başlangıç ekranı: sade, yönlendirici ve buton tabanlı
-- Kategorilere göre ikonlar ve renkli etiketleme
-- Gerçek zamanlı bilgi kutuları (kaç dosya, ne türde, ne kadar yer kazanıldı?)
-- Hata mesajları ve onay kutuları ile kullanıcı dostu yaklaşım
+📄 Documents: .pdf, .docx, .txt, .xlsx
 
----
+🎵 Music: .mp3, .wav
 
-## 📁 Kategori Desteği
+🎞️ Videos: .mp4, .avi, .mov
 
-SmartArrange Pro aşağıdaki kategorilere göre dosyaları gruplandırır:
+🖼️ Images: .jpg, .png, .gif, .webp
 
-```
-📄 Belgeler: .pdf, .docx, .txt, .xlsx  
-🎵 Müzik: .mp3, .wav  
-🎞️ Video: .mp4, .avi, .mov  
-🖼️ Görseller: .jpg, .png, .gif, .webp  
-🗜️ Arşivler: .zip, .rar, .7z  
-🧩 Yazılım: .py, .exe, .msi, .js  
-📊 Veri: .csv, .json, .xml
-```
+🗜️ Archives: .zip, .rar, .7z
 
----
+🧩 Software: .py, .exe, .msi, .js
 
-## 💬 Sık Sorulanlar
+📊 Data: .csv, .json, .xml
 
-**Q:** Uygulama hangi işletim sisteminde çalışır?  
-**A:** Windows için optimize edilmiştir. Ancak Python kurulu olduğu sürece diğer platformlarda da çalışabilir.
+💬 Frequently Asked Questions
+Q: Which operating systems are supported?
+A: SmartArrange Pro is optimized for Windows, but it can run on other platforms as long as Python is installed.
 
-**Q:** Dosyalarım silinir mi?  
-**A:** Hayır. Uygulama sadece taşıma, yeniden adlandırma ve düzenleme işlemleri yapar. Her işlem kullanıcı onayına bağlıdır.
+Q: Will my files be deleted?
+A: No. The app only moves, renames, and organizes files. Every action is based on user confirmation.
 
-**Q:** Tema nasıl değiştirilir?  
-**A:** Ayarlar panelinden açık veya koyu tema seçebilirsiniz.
+Q: How can I change the theme?
+A: You can switch between light and dark themes from the Settings panel.
 
----
+🛠️ Developer Notes
+Project Language: Python
 
-## 🛠️ Geliştirici Notları
+Interface: Tkinter + Pillow
 
-- Proje dili: Python
-- Arayüz: Tkinter + Pillow
-- Sürüm: 2.0 (Yeniden tasarlanmış UI + Gelişmiş özellikler)
+Version: 2.0 (Redesigned UI + Enhanced Features)
 
----
+📌 Roadmap
+Advanced file analysis and categorization
 
-## 📌 Yol Haritası
+UI themes
 
-- [x] Dosya analizi ve sınıflandırma
-- [x] Arayüz temaları
-- [x] Sağ tık menüsü
-- [ ] Klasörler arası eşitleme
-- [ ] Sürükle bırak desteği
-- [ ] Otomatik yedekleme sistemi
+Right-click context menu integration
 
----
+Folder synchronization
 
-## 📄 Lisans
+Drag-and-drop support
 
-Bu proje MIT lisansı ile korunmaktadır.  
-Detaylar için `LICENSE` dosyasını inceleyin.
+Automatic backup system
 
----
+📄 License  
+This project is licensed under the MIT License.  
+For details, see the [LICENSE](https://github.com/FreshYoshio/SmartArrangePro/blob/main/LICENSE).
 
-## 🙋 Destek & İletişim
-
-GitHub üzerinden [issue](https://github.com/FreshYoshio/SmartArrangePro/issues) açarak geri bildirimde bulunabilir ya da proje sayfasından katkı sunabilirsin.
+🙋 Support & Contact
+You can open an issue on GitHub to give feedback or contribute through the project page.
